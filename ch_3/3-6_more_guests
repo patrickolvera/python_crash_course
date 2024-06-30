@@ -1,0 +1,16 @@
+guests = ['Einstein', 'Elon Musk', 'Joe Rogan']
+print(f'Welcome {guests[0]}!')
+print(f'Welcome {guests[1]}!')
+print(f'Welcome {guests[-1]}!')
+
+print('We have found a bigger table!')
+guests.insert(0, 'Cleopatra')
+guests.insert(2, 'Henry Ford')
+guests.append('Juluis Cesar')
+
+print(f'Welcome {guests[0]}!')
+print(f'Welcome {guests[1]}!')
+print(f'Welcome {guests[2]}!')
+print(f'Welcome {guests[3]}!')
+print(f'Welcome {guests[4]}!')
+print(f'Welcome {guests[5]}!')

@@ -5,15 +5,15 @@
 # print(f'My friend used to have a {vehicles[3]}.')
 
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
-# motorcycles.insert(0,'hyabusa')
-# motorcycles.append('ducati')
-# del motorcycles[1]
-# popped_motorcycles = motorcycles.pop()
-# print(motorcycles)
-# print(popped_motorcycles)
-# first_owned = motorcycles.pop(1)
-# print(f"The first motorcyle I owned was a {first_owned.title()}")
-# motorcycles.remove('suzuki')
+motorcycles.insert(0,'hyabusa')
+motorcycles.append('ducati')
+del motorcycles[1]
+popped_motorcycles = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycles)
+first_owned = motorcycles.pop(1)
+print(f"The first motorcyle I owned was a {first_owned.title()}")
+motorcycles.remove('suzuki')
 print(motorcycles)
 
 too_expensive = 'ducati'
